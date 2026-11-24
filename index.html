@@ -119,7 +119,7 @@
         <div class="two">
 
             <details style="--c:#5035d0" open>
-                <summary>🔢 1. ¿Qué es un Conjunto?</summary>
+                <summary>🔢 1. ¿Qué es un Conjunto? (Sesión 1)</summary>
                 <div>
                     <ul>
                         <li><b>Definición:</b> Un conjunto es una colección bien definida de objetos llamados elementos.
@@ -181,8 +181,67 @@
                 </div>
             </details>
 
+            <details style="--c:#d35400">
+                <summary>🖼️ 2. Diagramas de Venn y Razonamiento Lógico (Sesión 1)</summary>
+                <div>
+                    <ul>
+                        <li><b>Diagramas de Venn:</b> Representaciones gráficas planas (usualmente círculos dentro de un
+                            rectángulo que representa el Universo U) utilizadas para visualizar relaciones de inclusión,
+                            intersección y áreas sombreadas de operaciones conjuntistas.</li>
+                        <li><b>Conexión entre Lógica y Conjuntos:</b>
+                            <ul>
+                                <li>La Unión (∪) equivale a la disyunción lógica O (∨).</li>
+                                <li>La Intersección (∩) equivale a la conjunción lógica Y (∧).</li>
+                                <li>El Complemento (Aᶜ) equivale a la negación lógica NO (¬).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <svg viewBox="0 0 300 150" style="max-width:300px;display:block;margin:auto">
+                        <rect x="5" y="5" width="290" height="140" fill="#fff8e1" stroke="#d35400" stroke-width="3"
+                            rx="8" />
+                        <circle cx="120" cy="75" r="50" fill="#7b4dff" fill-opacity=".5" />
+                        <circle cx="180" cy="75" r="50" fill="#e8467c" fill-opacity=".5" /><text x="95" y="80"
+                            font-weight="700">A</text><text x="195" y="80" font-weight="700">B</text><text x="268"
+                            y="135" font-weight="700">U</text>
+                    </svg>
+                    <div class="figs">
+                        <figure class="ph"><img loading="lazy"
+                                src="https://commons.wikimedia.org/wiki/Special:FilePath/John_Venn.jpg?width=300"
+                                alt="Retrato de John Venn" data-fb="John Venn" data-k="0" onerror="window.fb&&fb(this)">
+                            <figcaption>John Venn, creador de los diagramas que llevan su nombre</figcaption>
+                        </figure>
+                    </div>
+                    <div class="kidsay"><span data-kid="4"></span>
+                        <p>En mi salón, el círculo de «fútbol» y el de «baloncesto» se cruzan donde están los que juegan
+                            ambos.</p>
+                    </div>
+                    <div class="more"><b>➕ Para ampliar</b>
+                        <ul>
+                            <li><b>Cómo se dibuja:</b> 1) rectángulo para U; 2) un círculo por conjunto; 3) si comparten
+                                elementos, los círculos se cruzan; 4) se sombrea la región pedida.</li>
+                            <li><b>Ejemplo de la vida real:</b> en un curso, F = quienes juegan fútbol y K = quienes
+                                juegan baloncesto. F ∩ K son quienes practican ambos deportes.</li>
+                            <li><b>Equivalencias:</b> ⊆ ↔ ⟹ (implicación) · = ↔ ⟺ (equivalencia).</li>
+                        </ul>
+                    </div>
+                    <div class="fact"><b>✅ Dato verificado</b>
+                        <ul>
+                            <li>John Venn presentó sus diagramas en 1880 en un artículo de la revista <i>Philosophical
+                                    Magazine</i>. El nombre «diagrama de Venn» se popularizó después, desde el filósofo
+                                Clarence Irving Lewis (1918).</li>
+                            <li>Antes, Leonhard Euler (siglo XVIII) ya usaba círculos para ilustrar razonamientos
+                                lógicos; por eso a veces se habla de «diagramas de Euler».</li>
+                            <li>Con n conjuntos, un diagrama de Venn completo debe mostrar 2ⁿ regiones: con 2 círculos
+                                hay 4 regiones (incluida la exterior) y con 3 círculos hay 8.</li>
+                            <li>Estas ideas conectan la lógica con la electrónica: las compuertas AND, OR y NOT de los
+                                circuitos digitales siguen ∩, ∪ y complemento.</li>
+                        </ul>
+                    </div>
+                </div>
+            </details>
+
             <details style="--c:#9b59b6">
-                <summary>🔀 2. Simbología y Relaciones Fundamentales</summary>
+                <summary>🔀 3. Simbología y Relaciones Fundamentales (Sesión 2)</summary>
                 <div>
                     <ul>
                         <li><b>Pertenencia (∈):</b> Relaciona un elemento con un conjunto. Ej: Si A = {1, 3, 5},
@@ -224,7 +283,7 @@
             </details>
 
             <details style="--c:#e67e22">
-                <summary>📊 3. Clases de Conjuntos (Finitos vs. Infinitos)</summary>
+                <summary>📊 4. Clases de Conjuntos: Finitos vs. Infinitos (Sesión 3)</summary>
                 <div>
                     <ul>
                         <li><b>Conjunto Vacío (∅ o {}):</b> Es el conjunto que no posee ningún elemento. Por definición,
@@ -287,7 +346,7 @@
             </details>
 
             <details style="--c:#16a085">
-                <summary>🔗 4. Operaciones Entre Conjuntos</summary>
+                <summary>🔗 5. Operaciones Entre Conjuntos (Sesión 4)</summary>
                 <div>
                     <ul>
                         <li><b>Unión (A ∪ B):</b> Conjunto de elementos que están en A, en B o en ambos.<div class="f">A
@@ -375,65 +434,6 @@
                             <li>La diferencia A ∖ B también se puede escribir como A ∩ Bᶜ.</li>
                             <li>El producto cartesiano A × B es otra operación: reúne todos los pares ordenados (a, b)
                                 con a ∈ A y b ∈ B.</li>
-                        </ul>
-                    </div>
-                </div>
-            </details>
-
-            <details style="--c:#d35400">
-                <summary>🖼️ 5. Diagramas de Venn y Razonamiento Lógico</summary>
-                <div>
-                    <ul>
-                        <li><b>Diagramas de Venn:</b> Representaciones gráficas planas (usualmente círculos dentro de un
-                            rectángulo que representa el Universo U) utilizadas para visualizar relaciones de inclusión,
-                            intersección y áreas sombreadas de operaciones conjuntistas.</li>
-                        <li><b>Conexión entre Lógica y Conjuntos:</b>
-                            <ul>
-                                <li>La Unión (∪) equivale a la disyunción lógica O (∨).</li>
-                                <li>La Intersección (∩) equivale a la conjunción lógica Y (∧).</li>
-                                <li>El Complemento (Aᶜ) equivale a la negación lógica NO (¬).</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <svg viewBox="0 0 300 150" style="max-width:300px;display:block;margin:auto">
-                        <rect x="5" y="5" width="290" height="140" fill="#fff8e1" stroke="#d35400" stroke-width="3"
-                            rx="8" />
-                        <circle cx="120" cy="75" r="50" fill="#7b4dff" fill-opacity=".5" />
-                        <circle cx="180" cy="75" r="50" fill="#e8467c" fill-opacity=".5" /><text x="95" y="80"
-                            font-weight="700">A</text><text x="195" y="80" font-weight="700">B</text><text x="268"
-                            y="135" font-weight="700">U</text>
-                    </svg>
-                    <div class="figs">
-                        <figure class="ph"><img loading="lazy"
-                                src="https://commons.wikimedia.org/wiki/Special:FilePath/John_Venn.jpg?width=300"
-                                alt="Retrato de John Venn" data-fb="John Venn" data-k="0" onerror="window.fb&&fb(this)">
-                            <figcaption>John Venn, creador de los diagramas que llevan su nombre</figcaption>
-                        </figure>
-                    </div>
-                    <div class="kidsay"><span data-kid="4"></span>
-                        <p>En mi salón, el círculo de «fútbol» y el de «baloncesto» se cruzan donde están los que juegan
-                            ambos.</p>
-                    </div>
-                    <div class="more"><b>➕ Para ampliar</b>
-                        <ul>
-                            <li><b>Cómo se dibuja:</b> 1) rectángulo para U; 2) un círculo por conjunto; 3) si comparten
-                                elementos, los círculos se cruzan; 4) se sombrea la región pedida.</li>
-                            <li><b>Ejemplo de la vida real:</b> en un curso, F = quienes juegan fútbol y K = quienes
-                                juegan baloncesto. F ∩ K son quienes practican ambos deportes.</li>
-                            <li><b>Equivalencias:</b> ⊆ ↔ ⟹ (implicación) · = ↔ ⟺ (equivalencia).</li>
-                        </ul>
-                    </div>
-                    <div class="fact"><b>✅ Dato verificado</b>
-                        <ul>
-                            <li>John Venn presentó sus diagramas en 1880 en un artículo de la revista <i>Philosophical
-                                    Magazine</i>. El nombre «diagrama de Venn» se popularizó después, desde el filósofo
-                                Clarence Irving Lewis (1918).</li>
-                            <li>Antes, Leonhard Euler (siglo XVIII) ya usaba círculos para ilustrar razonamientos
-                                lógicos; por eso a veces se habla de «diagramas de Euler».</li>
-                            <li>Con n conjuntos, un diagrama de Venn completo debe mostrar 2ⁿ regiones: con 2 círculos
-                                hay 4 regiones (incluida la exterior) y con 3 círculos hay 8.</li>
-                            <li>Estas ideas conectan la lógica con la electrónica: las compuertas AND, OR y NOT de los
-                                circuitos digitales siguen ∩, ∪ y complemento.</li>
                         </ul>
                     </div>
                 </div>
@@ -623,6 +623,10 @@
                     src="https://www.youtube.com/embed/RHHA-bDhfGw" allowfullscreen loading="lazy"></iframe>
             </div>
             <div>
+                <h4>Diagramas de Venn y Razonamiento Lógico</h4><iframe title="Diagramas de Venn"
+                    src="https://www.youtube.com/embed/YZRRUFG2UOY" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div>
                 <h4>Simbología y Relaciones Fundamentales (∈, ⊆, ⊂, =)</h4><iframe
                     title="Simbología y Relaciones Fundamentales" src="https://www.youtube.com/embed/MY24oAocK4c"
                     allowfullscreen loading="lazy"></iframe>
@@ -634,10 +638,6 @@
             <div>
                 <h4>Operaciones Entre Conjuntos (∪, ∩, ∖, Aᶜ)</h4><iframe title="Operaciones Entre Conjuntos"
                     src="https://www.youtube.com/embed/nRfQ7a8GMF0" allowfullscreen loading="lazy"></iframe>
-            </div>
-            <div>
-                <h4>Diagramas de Venn y Razonamiento Lógico</h4><iframe title="Diagramas de Venn"
-                    src="https://www.youtube.com/embed/YZRRUFG2UOY" allowfullscreen loading="lazy"></iframe>
             </div>
             <div>
                 <h4>Leyes de De Morgan y Propiedades Algebraicas</h4><iframe title="Leyes de De Morgan"
